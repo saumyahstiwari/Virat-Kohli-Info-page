@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Virat Kohli</title>
+    <link rel="icon" href="/Image/VK1.png">
+    <link rel="stylesheet" href="/styles/contact.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/Image/3.jpg);
+    background-size: 110%;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+ background-color: #444;
+ padding: 10px;
+ text-align: center;
+ position: sticky;
+ top: 0;
+ opacity: 95%;
+ z-index: 2;
+}
+.a{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a {
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background-color: #555;
+    height: 50px;
+    width: 50px;
+    transition-duration: 500ms;
+    border-radius: 50%;
+}
+.container {
+    margin-bottom: 100px;
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+
+}
+
+form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    opacity: 95%;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    padding: 20px 0;
+    z-index: 2;
+}
+.contact-info {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    opacity: 95%;
+            text-align: center;
+            color: #3a2b2b;
+        }
+        .contact-info img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+        .email-address {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .email-address a {
+            color: #3a2b2b;
+            text-decoration: none;
+        }
+        .email-address a:hover {
+            text-decoration: underline;
+        }
+</style>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <nav>
+        <a href="Project.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Achievement.html">Achievements</a>
+        <a href="/Contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <section class="contact-info">
+        <img src="/Image/VK1.png" alt="Virat Kohli">
+        <div class="email-address">
+            <a href="mailto:viratkohli@example.com">viratkohli@example.com</a>
+        </div>
+        <div class="phone-number">
+            <p>Phone: +91-XXXXXXXXXX</p>
+        </div>
+        <div class="social-links">
+            <a href="https://twitter.com/imVkohli" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/virat.kohli/" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/virat.kohli/" target="_blank">Facebook</a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Virat Kohli. All rights reserved.</p>
+    </footer>
+    <script src="/Scripts/Cont.js">
+        
+    </script>
+</body>
+</html>
